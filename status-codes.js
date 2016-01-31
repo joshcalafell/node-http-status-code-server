@@ -13,9 +13,9 @@ var PORT = 7777;
 var server = http.createServer(function(request, response) {
   response.writeHead(200, {"Content-Type": "text/html"});
   response.write("<!DOCTYPE html>");
-  response.write("<style>*{font-family:monospace;text-align:left;}th,td{padding: 3px;}</style>");
   response.write("<html>");
   response.write("<head>");
+  response.write("<link href=\"../style.css\" rel=\"stylesheet\" type=\"text/css\"/>");
   response.write("<title>HTTP STATUS CODES</title>");
   response.write("</head>");
   response.write("<body>");
@@ -26,10 +26,10 @@ var server = http.createServer(function(request, response) {
   response.write("<tr><th>Code</th><th>Status</th></tr>");
   response.write("<tr>");
   for (var code in codes) {
-	  if (codes.hasOwnProperty(code)) {
-	    response.write("<tr><td>"+code+"</td><td>"+codes[code]+"</td>");
-	  }
-	}
+    if (codes.hasOwnProperty(code)) {
+      response.write("<tr><td>"+code+"</td><td>"+codes[code]+"</td>");
+    }
+  }
   response.write("</table>");
   response.write("</body>");
   response.write("</html>");
@@ -37,4 +37,3 @@ var server = http.createServer(function(request, response) {
 });
 server.listen(PORT);
 console.log("Server is listening on http://localhost:" + PORT);
-
