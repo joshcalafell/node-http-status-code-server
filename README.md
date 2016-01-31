@@ -1,7 +1,7 @@
 # node-http-status-code-server
 Node HTTP Status Code Server
 
-### Author: J.M.w. <rabbitfighter@cryptolab.net>
+Author: <rabbitfighter@cryptolab.net>
 
 ## Usage: In terminal type 'node status-codes.js'
 
