@@ -3,7 +3,8 @@ Node HTTP Status Code Server
 
 Author: <rabbitfighter@cryptolab.net>
 
-## Usage: In terminal type 'node status-codes.js'
+## Usage: 
+* In terminal type <code>node status-codes.js</code>
 
 ## Requirements:
  * Install Node 
