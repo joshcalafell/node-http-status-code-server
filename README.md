@@ -7,5 +7,5 @@ Node HTTP Status Code Server
 
 ## Requirements:
  * Install Node 
- * NPM module 'http' - <code>npm install -g http</code>
+ * NPM module 'HTTP' - <code>npm install -g http</code>
  * A modern web browser pointed to <code>localhost:7777</code>
